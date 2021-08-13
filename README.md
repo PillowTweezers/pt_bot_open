@@ -89,7 +89,7 @@ It was written in mind of the users and participants of the group and tries to c
 Clone this project
 
 ```bash
-> git clone git@github.com:PillowTweezers/pt_bot.git
+> git clone https://github.com/PillowTweezers/pt_bot_open.git
 > cd pt_bot
 ```
 
@@ -119,7 +119,13 @@ Install the models and put them in ```bin/pythonScripts/models```.
 
 #### Api commands:
 Just create users in rapid-api and all the sites in the ```config/apiKeys.json```<br>
-and subscribe to these APIes (all of them are free)
+and subscribe to these APIes (all of them are free).
+1. http://www.voicerss.org
+2. https://openweathermap.org
+3. https://rapidapi.com/spamakashrajtech/api/corona-virus-world-and-india-data
+4. https://rapidapi.com/fyhao/api/text-sentiment-analysis-method
+5. https://rapidapi.com/nijikokun/api/baby-pig-pictures
+
 
 
 ### Usage
