@@ -1,0 +1,52 @@
+{
+  "name": "pt_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "for test in test/*.js; do node $test; done",
+    "start": "node lib/bot.js",
+    "start-nodemon": "nodemon -i ./lib/session.data.json ./lib/bot.js",
+    "start-minimal": "node lib/bot.js --minimal"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@jimp/plugin-color": "^0.16.1",
+    "@jimp/plugin-shadow": "^0.16.1",
+    "@tensorflow/tfjs-node": "1.7.4",
+    "@vitalets/google-translate-api": "^5.1.0",
+    "axios": "^0.21.1",
+    "data-uri-to-buffer": "^3.0.1",
+    "datauri": "^3.0.0",
+    "emoji-regex": "^8.0.0",
+    "execa": "^5.0.0",
+    "face-api.js": "^0.22.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "iconv": "^3.0.0",
+    "iconv-lite": "^0.4.24",
+    "jimp": "^0.16.1",
+    "lolcatjs": "^2.4.0",
+    "mime": "^2.5.2",
+    "node-gyp": "^3.8.0",
+    "node-webpmux": "^3.1.0",
+    "puppeteer": "^10.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "seedrandom": "^2.4.4",
+    "shuffle-seed": "^1.1.6",
+    "sleep": "^6.3.0",
+    "sqlite3": "^5.0.2",
+    "string-similarity": "^4.0.4",
+    "tinycolor2": "^1.4.2",
+    "whatsapp-web.js": "github:PillowTweezers/whatsapp-web.js",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "canvas": "^2.8.0",
+    "eslint": "^7.23.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-only-warn": "^1.0.2",
+    "nodemon": "^2.0.7"
+  }
+}

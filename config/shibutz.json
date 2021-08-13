@@ -1,0 +1,261 @@
+{
+  "importantRoles": {
+    "merakezMerakzim": {
+      "amount": 1,
+      "displayName": "מרכז מרכזים",
+      "backgroundColor": [
+        "gold"
+      ]
+    },
+    "merakezMifalim": {
+      "amount": 1,
+      "displayName": "מרכז מפעלים",
+      "backgroundColor": [
+        "#2ecc71",
+        "grey"
+      ]
+    },
+    "merakezPeilim": {
+      "amount": 1,
+      "displayName": "מרכז פעילים",
+      "backgroundColor": [
+        "#2ecc71",
+        "grey"
+      ]
+    },
+    "merakezDaled": {
+      "amount": 1,
+      "displayName": "מרכז ד'",
+      "backgroundColor": [
+        "#2ecc71",
+        "grey"
+      ]
+    },
+    "merakezHeigh": {
+      "amount": 1,
+      "displayName": "מרכז ה'",
+      "backgroundColor": [
+        "#2ecc71",
+        "grey"
+      ]
+    },
+    "merakezNeurim": {
+      "amount": 1,
+      "displayName": "מרכז נעורים",
+      "backgroundColor": [
+        "#2ecc71",
+        "grey"
+      ]
+    },
+    "rashgadDaled": {
+      "amount": 5,
+      "displayName": "ראשג\"ד ד'",
+      "backgroundColor": [
+        "#2ecc71",
+        "white"
+      ]
+    },
+    "rashgadHeigh": {
+      "amount": 6,
+      "displayName": "ראשג\"ד ה'",
+      "backgroundColor": [
+        "#2ecc71",
+        "white"
+      ]
+    },
+    "rashgadVav": {
+      "amount": 3,
+      "displayName": "ראשג\"ד ו'",
+      "backgroundColor": [
+        "#2ecc71",
+        "white"
+      ]
+    },
+    "rashgadZain": {
+      "amount": 2,
+      "displayName": "ראשג\"ד ז'",
+      "backgroundColor": [
+        "#2ecc71",
+        "white"
+      ]
+    },
+    "rashgadHet": {
+      "amount": 1,
+      "displayName": "ראשג\"ד ח'",
+      "backgroundColor": [
+        "#2ecc71",
+        "white"
+      ]
+    },
+    "rashgadTzamid": {
+      "amount": 1,
+      "displayName": "ראשג\"ד צמי\"ד",
+      "backgroundColor": [
+        "#2ecc71",
+        "white"
+      ]
+    },
+    "rashatzKehila": {
+      "amount": 1,
+      "displayName": "ראש קהילה",
+      "backgroundColor": [
+        "#2ecc71",
+        "#c0392b"
+      ]
+    },
+    "rashatzTzofiut": {
+      "amount": 1,
+      "displayName": "ראש צופיות",
+      "backgroundColor": [
+        "#2ecc71",
+        "#c0392b"
+      ]
+    },
+    "rashatzPitzpon": {
+      "amount": 1,
+      "displayName": "ראש פצפון",
+      "backgroundColor": [
+        "#2ecc71",
+        "#c0392b"
+      ]
+    },
+    "rashatzMitzi": {
+      "amount": 1,
+      "displayName": "ראש משימות מסלול",
+      "backgroundColor": [
+        "#2ecc71",
+        "#c0392b"
+      ]
+    },
+    "rashatzMeoravut": {
+      "amount": 1,
+      "displayName": "ראש מעורבות חניכים",
+      "backgroundColor": [
+        "#2ecc71",
+        "#c0392b"
+      ]
+    },
+    "kurs": {
+      "amount": 4,
+      "displayName": "מדריך קורס",
+      "backgroundColor": [
+        "#2ecc71",
+        "#b2babb"
+      ]
+    },
+    "het": {
+      "amount": 5,
+      "displayName": "מדריך ח'",
+      "backgroundColor": [
+        "#2ecc71",
+        "white"
+      ]
+    }
+  },
+  "roles": {
+    "tzamid": {
+      "weight": 4,
+      "displayName": "מדריך צמי\"ד",
+      "backgroundColor": [
+        "#2ecc71",
+        "white"
+      ]
+    },
+    "daled": {
+      "weight": 15,
+      "displayName": "מדריך ד'",
+      "backgroundColor": [
+        "#2ecc71",
+        "white"
+      ]
+    },
+    "heigh": {
+      "weight": 15,
+      "displayName": "מדריך ה'",
+      "backgroundColor": [
+        "#2ecc71",
+        "white"
+      ]
+    },
+    "vav": {
+      "weight": 17,
+      "displayName": "מדריך ו'",
+      "backgroundColor": [
+        "#2ecc71",
+        "white"
+      ]
+    },
+    "zain": {
+      "weight": 10,
+      "displayName": "מדריך ז'",
+      "backgroundColor": [
+        "#2ecc71",
+        "white"
+      ]
+    },
+    "matan": {
+      "weight": 6,
+      "displayName": "הדרכת שכבג",
+      "backgroundColor": [
+        "#2ecc71",
+        "#c0392b"
+      ]
+    },
+    "mahsan": {
+      "weight": 10,
+      "displayName": "מחסן",
+      "backgroundColor": [
+        "#2ecc71",
+        "#c0392b"
+      ]
+    },
+    "kehila": {
+      "weight": 6,
+      "displayName": "קהילה",
+      "backgroundColor": [
+        "#2ecc71",
+        "#c0392b"
+      ]
+    },
+    "tzofiut": {
+      "weight": 7,
+      "displayName": "צופיות",
+      "backgroundColor": [
+        "#2ecc71",
+        "#c0392b"
+      ]
+    },
+    "pitzpon": {
+      "weight": 5,
+      "displayName": "פצפון",
+      "backgroundColor": [
+        "#2ecc71",
+        "#c0392b"
+      ]
+    },
+    "mitzi": {
+      "weight": 7,
+      "displayName": "משימות מסלול",
+      "backgroundColor": [
+        "#2ecc71",
+        "#c0392b"
+      ]
+    },
+    "meoravut": {
+      "weight": 6,
+      "displayName": "מעורבות חניכים",
+      "backgroundColor": [
+        "#2ecc71",
+        "#c0392b"
+      ]
+    },
+    "havrash": {
+      "weight": 12,
+      "displayName": "חבר\"ש",
+      "backgroundColor": [
+        "#2ecc71",
+        "#e6b0aa"
+      ]
+    }
+  }
+}

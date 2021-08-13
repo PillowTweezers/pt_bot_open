@@ -1,0 +1,5 @@
+{
+  "lowProbability": 0.85,
+  "lowBounds": [0, 25],
+  "highBounds": [40, 300]
+}
