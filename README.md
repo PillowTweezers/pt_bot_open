@@ -73,7 +73,6 @@ It was written in mind of the users and participants of the group and tries to c
 | Image commands | Availability |
 | :-----------: | :----------: |
 | Find similarity<br>between faces | ✔ |
-| Face detection | ✔ |
 | Colorize black&white<br>pictures | ✔ |
 
 # Installation and Usage
@@ -82,7 +81,6 @@ It was written in mind of the users and participants of the group and tries to c
 
 - Node.js (Only latest is tested)
 - Python 3.7 (May work with later versions too)
-- Tensorflow (Only latest is tested, CUDA included)
 
 ### Installation:
 
@@ -99,13 +97,6 @@ Install dependencies
 > npm i
 ```
 
-<strong>WINDOWS ONLY</strong>
-
-If tensorflow blocks the bot from running, this command may fix it:
-
-```bat
-copy "node_modules\@tensorflow\tfjs-node\deps\lib\tensorflow.dll" "node_modules\@tensorflow\tfjs-node\lib\napi-v5\"
-```
 
 ### Special commands preparation:
 #### WhoIs command:

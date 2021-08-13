@@ -1,7 +1,6 @@
 const axios = require('axios').default;
 const translator = require('../../utils/translator').translateString;
 const ApiKeys = require('../../../config/apiKeys.json');
-const faceRecognitionCommand = require('..\\funCommands\\faceRecognitionCommand.js');
 /**
  * Process sentiment command.
  *
@@ -12,9 +11,6 @@ const procCommand = async (message) => {
   // Message processing.
   const quotedMessage = await message.getQuotedMessage();
   if (!quotedMessage) {
-    return;
-  }else if(quotedMessage.hasMedia){
-    await faceRecognitionCommand(quotedMessage);
     return;
   }
   const quote = quotedMessage.body;

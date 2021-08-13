@@ -15,7 +15,6 @@
   "dependencies": {
     "@jimp/plugin-color": "^0.16.1",
     "@jimp/plugin-shadow": "^0.16.1",
-    "@tensorflow/tfjs-node": "1.7.4",
     "@vitalets/google-translate-api": "^5.1.0",
     "axios": "^0.21.1",
     "data-uri-to-buffer": "^3.0.1",
@@ -43,7 +42,6 @@
     "yargs": "^16.2.0"
   },
   "devDependencies": {
-    "canvas": "^2.8.0",
     "eslint": "^7.23.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-only-warn": "^1.0.2",
