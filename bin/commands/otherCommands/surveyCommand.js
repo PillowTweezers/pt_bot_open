@@ -53,13 +53,17 @@ const surveyResults = async (message)=>{
         counter.set(buttonsText[i], 0);
     }
     let messages, voted = [];
-    messages = await chat.fetchMessagesUntil(quoted);
+    messages = await chat.fetchMessagesUntilForSurvey(quoted);
+    messages.push(quoted);
     for(let i=0;i<messages.length;i++){
+        if(messages[i].id.id === quoted.id.id){
+            break;
+        }
         if (!messages[i].hasQuotedMsg || messages[i].type !== MessageTypes.BUTTON_RESPONSE) {
             continue;
         }
-        let quotedMessage = await messages[i].getQuotedMessage();
-        if(quotedMessage && quotedMessage.id && quotedMessage.id._serialized===quoted.id._serialized && counter.has(messages[i].body) && !voted.includes(messages[i].author)){
+
+        if(messages[i].quotedMsgId===quoted.id.id && counter.has(messages[i].body) && !voted.includes(messages[i].author)){
             counter.set(messages[i].body, counter.get(messages[i].body)+1);
             voted.push(messages[i].author);
         }
