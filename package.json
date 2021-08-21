@@ -21,7 +21,6 @@
     "datauri": "^3.0.0",
     "emoji-regex": "^8.0.0",
     "execa": "^5.0.0",
-    "face-api.js": "^0.22.2",
     "fluent-ffmpeg": "^2.1.2",
     "iconv": "^3.0.0",
     "iconv-lite": "^0.4.24",
