@@ -18,7 +18,12 @@ const procCommand = async (message) => {
 
     const mentions = await message.getMentions();
     const contact = mentions[0];
-    const name = contact.pushname;
+    let name;
+    if (contact.pushname) {
+        name = contact.pushname;
+    }else{
+        name = contact.name;
+    }
     const phone = contact.number;
     let timeToBlock = parseInt(message.body.split(' ')[message.body.split(' ').length-1]);
     const currentTime = Math.floor(new Date().getTime() / 1000);

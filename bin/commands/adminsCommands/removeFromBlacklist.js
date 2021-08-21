@@ -21,7 +21,7 @@ const procCommand = async (message) => {
     if (!mentions){
         sql = "delete from blacklist where phone="+removeFirstWord(message.body);
     }else{
-        sql = "delete from blacklist where phone="+mentions[0].numbe;
+        sql = "delete from blacklist where phone="+mentions[0].number;
     }
 
     if(!sql){
