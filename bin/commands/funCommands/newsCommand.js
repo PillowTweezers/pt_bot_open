@@ -1,5 +1,5 @@
 const axios = require('axios').default;
-const urlToMessageMedia = require('..\\..\\utils\\mediaHelper').urlToMessageMedia
+const urlToMessageMedia = require('../../utils/mediaHelper').urlToMessageMedia
 const {removeFirstWord} = require('../../utils/stringUtils');
 /**
  * Process sentiment command.
