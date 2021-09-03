@@ -1,8 +1,8 @@
 const axios = require('axios').default;
-const urlToMessageMedia = require('..\\..\\utils\\mediaHelper').urlToMessageMedia
+const urlToMessageMedia = require('../../utils/mediaHelper').urlToMessageMedia
 const fs = require('fs');
 const path = require('path');
-let config = require('..\\..\\..\\config\\whoIs.json');
+let config = require('../../../config/whoIs.json');
 let headers = {
     'Authorization': config.auth
 };
@@ -29,7 +29,7 @@ const generateAuthorization = async(message)=>{
     }
     config.auth = response.data["access"];
     headers['Authorization'] = response.data["access"];
-    fs.writeFile(path.resolve(__dirname,'..\\..\\..\\config\\whoIs.json'), JSON.stringify(config), function writeJSON(err) {
+    fs.writeFile(path.resolve(__dirname,'../../../config/whoIs.json'), JSON.stringify(config), function writeJSON(err) {
         if (err){
             console.log(err);
         }
