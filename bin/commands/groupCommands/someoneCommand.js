@@ -12,7 +12,6 @@ const procCommand = async (message) => {
     return;
   }
 
-  let output = '';
   const participant = randomFromArr(chat.participants);
   const output = `@${participant.id.user} `;
   const mentions = [participant];
