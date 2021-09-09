@@ -24,6 +24,7 @@
     "fluent-ffmpeg": "^2.1.2",
     "iconv": "^3.0.0",
     "iconv-lite": "^0.4.24",
+    "is-number": "^7.0.0",
     "jimp": "^0.16.1",
     "lolcatjs": "^2.4.0",
     "mime": "^2.5.2",
